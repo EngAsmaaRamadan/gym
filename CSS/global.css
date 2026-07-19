@@ -1,0 +1,55 @@
+:root{
+	--main-color:rgb(229, 85, 86);
+	--light-color:#333;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'PT Sans';
+	height: 5000px;
+}
+
+section{
+	padding-block: 48px ;
+}
+
+.title{
+	text-align: center;
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 47px;
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Oswald';
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+
+p{
+	line-height: 1.5;
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+}
