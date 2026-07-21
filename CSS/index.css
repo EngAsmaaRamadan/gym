@@ -438,14 +438,14 @@ header .container .content button:active{
 #Trainers .container .content .box .item .icons{
 	display: flex;
 	margin-bottom: 5px;
-	/*justify-content: space-between;*/
 }
 
 #Trainers .container .content .box .item .icons a{
 	margin-inline: 12px;
 }
 
-#Trainers .container .content .box .item .icons a i{
+#Trainers .container .content .box .item .icons a i,
+.footer i{
 	width: 35px;
 	height: 35px;
 	display: flex;
@@ -458,20 +458,15 @@ header .container .content button:active{
 	transition-duration: 0.5s;
 }
 
-#Trainers .container .content .box .item .icons a:hover i{
+#Trainers .container .content .box .item .icons a:hover i,
+.footer .icon a:hover i{
 	background-color: #fff;
 	color: var(--main-color);
-}
-
-#Gallery{
-	height: 100vh;
-	
 }
 
 #Gallery .container{
 	width: 81%;
 	margin: auto;
-	height: 97vh;
 }
 
 #Gallery .container .title{
@@ -519,16 +514,18 @@ header .container .content button:active{
 
 #Gallery .container .content .child{
 	height: 100%;
-	/*width: 33.33%;*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+#Contact{
+	padding-top: 70px;
+}
+
 #Contact iframe{
 	cursor: grab;
-	padding-block: inherit;
-    margin-top: 150px;
+	margin-bottom: 50px;
 }
 
 #Contact .container{
@@ -558,7 +555,7 @@ header .container .content button:active{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-inline: 10px;
+	/*margin-inline: 10px;*/
 }
 
 #Contact .container .content .box .item i{
@@ -611,6 +608,10 @@ header .container .content button:active{
 	transition-duration: 0.5s;
 }
 
+#Contact .container form textarea::placeholder,
+#Contact .container form input::placeholder{
+	font-size: 16px;
+}
 
 #Contact .container form textarea:focus,
 #Contact .container form input:focus{
@@ -638,30 +639,117 @@ header .container .content button:active{
 
 .contact_us {
 	display: flex;
+	padding-top: 48px;
+	flex-wrap: wrap;
 	width: 100%;
 	justify-content: center;
 	background-color: var(--light-color);
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding-inline: 75px;
 }
 
 .contact_us .box {
 	width: 30%;
 }
 
-.contact_us .box:first-child{
+.contact_us .box:first-child .item{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.contact_us .box .small-box:nth-of-type(odd) .item{
-	background-image: url("../images/g6.jpg");
+.contact_us .box .item h3{
+	color: var(--main-color);
+	font-size: 20px;
+	margin-bottom: 25px;
 }
 
-.contact_us .box .small-box:nth-of-type(even) .item{
-	background-image: url("../images/g3.jpg");
+.contact_us .box:nth-of-type(2) .item h3{
+	padding-left: 18px;
 }
+
+.contact_us .box:last-child{
+	margin-left: 5px;
+}
+
+.contact_us .box:nth-of-type(2) .item{
+	padding-right: 25px;
+}
+
+.contact_us .box:last-child .item{
+	padding-right: 57px;
+}
+
+.contact_us .box:last-child .item h3{
+	padding-left: 10px;
+}
+
+.contact_us .box:first-child .item a{
+	margin-bottom: 13px;
+	transition-duration: 0.5s;
+}
+
+.contact_us .box:first-child .item a:hover{
+	color: var(--main-color);
+}
+
+.contact_us .box:nth-of-type(2) .item .item-inside{
+	gap: 15px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact_us .box:nth-of-type(2) .item .item-inside .small-box{
+	width: 30%;
+}
+
+.contact_us .box:nth-of-type(2) .item .item-inside .small-box .small-item img{
+	width: 80%;
+	display: block;
+}
+
+.contact_us .box:last-child .item .item-inside{
+	color: #fff;
+	border: none;
+	border-bottom: 2px solid var(--main-color);
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.contact_us .box:last-child .item .item-inside p{
+	font-family: 'Agency FB';
+	font-weight: bold;
+}
+
+.footer{
+	text-align: center;
+	background-color: var(--light-color);
+	padding-block: 25px;
+	color: #fff;
+}
+
+.footer footer{
+	margin-bottom: 20px;
+}
+
+.footer .icon{
+	margin-bottom: 15px;
+}
+
 .footer footer span{
 	color: var(--main-color);
+} 
+
+.footer .icon{
+	display: flex;
+	justify-content: center;
+}
+
+.footer .icon a{
+	margin-inline: 8px;
 }
 
 .arrow{
