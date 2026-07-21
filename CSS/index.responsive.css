@@ -3,9 +3,8 @@ responsive for header done
 			   services done
 			   clients done
 			   triainers done
-			   gallery 
-			   contact
-
+			   gallery done
+			   contact BIG PROBLEM was because the fixed hight of container in gallery
 */
 
 @media (max-width: 1300px){
@@ -32,8 +31,8 @@ responsive for header done
 
 	header nav .nav_container .links .links_button:focus + ul{
 		display: flex;
-		padding: 10px;
-		height: 280px;
+		padding: 20px 0;
+		height: 325px;
 	}
 
 	header nav .nav_container .links ul{
@@ -50,7 +49,7 @@ responsive for header done
 		transform: translate(-50%,100%);
 		padding: 0px;
 		border-radius: 10px;
-		gap: 20px 0;
+		gap: 25px 0;
 		overflow: hidden;
 		transition-duration: 0.5s;
 	}
