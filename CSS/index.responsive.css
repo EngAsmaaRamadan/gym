@@ -231,7 +231,7 @@ responsive for header done
 	#Contact .container form button {
 		position: relative;
 		bottom: 0;
-		right: 34%;
+		right: 0%;
 	}
 
 	#Contact .container form button a{
@@ -457,7 +457,7 @@ responsive for header done
     }
 
     #Contact .container form button{
-    	right: 30%;
+    	right: 0;
     }
 
     .contact_us{
@@ -645,10 +645,6 @@ responsive for header done
     	width: 100%;
     	padding-top: 8px;
     	margin-bottom: 15px;
-    }
-
-    #Contact .container form button{
-    	right: 0;
     }
 
     #Contact .container form button a{
