@@ -105,7 +105,6 @@ header .container{
 
 header .container .content{
 	color: #fff;
-	/*transform: translateY(-18%);*/
 }
 
 header .container .content h2{
@@ -543,6 +542,7 @@ header .container .content button:active{
 
 #Contact .container .content{
 	display: flex;
+	flex-wrap: wrap;
 	margin-bottom: 40px;
 }
 
@@ -555,7 +555,6 @@ header .container .content button:active{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/*margin-inline: 10px;*/
 }
 
 #Contact .container .content .box .item i{
@@ -568,12 +567,12 @@ header .container .content button:active{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 }
 
 #Contact .container .content .box .item a{
 	color: #000;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 
 #Contact .container form{
@@ -582,7 +581,7 @@ header .container .content button:active{
     height: 300px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -594,9 +593,8 @@ header .container .content button:active{
 #Contact .container form textarea{
 	resize: none;
     width: 95%;
-    height: 190px;
+    height: 200px;
     padding: 15px 10px;
-    font-family: "Arial";
 }
 
 #Contact .container form input,
@@ -606,11 +604,12 @@ header .container .content button:active{
 	border: none;
 	border-bottom: 1px solid var(--main-color);
 	transition-duration: 0.5s;
+	padding-bottom: 8px;
 }
 
 #Contact .container form textarea::placeholder,
 #Contact .container form input::placeholder{
-	font-size: 15px;
+	font-size: 16px;
 }
 
 #Contact .container form textarea:focus,
@@ -621,7 +620,7 @@ header .container .content button:active{
 }
 
 #Contact .container form button {
-	padding: 12px 30px;
+	padding: 11px 33px;
 	border-radius: 5px;
 	background-color: #000;
 	border: 0;
@@ -732,7 +731,7 @@ header .container .content button:active{
 }
 
 .footer footer{
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .footer .icon{
