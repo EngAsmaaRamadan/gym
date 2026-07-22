@@ -13,7 +13,10 @@ html{
 	scroll-behavior: smooth;
 }
 
-body{
+body, 
+input,
+textarea,
+form button a{
 	font-family: 'PT Sans';
 }
 
