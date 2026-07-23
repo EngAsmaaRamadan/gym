@@ -24,6 +24,10 @@ section{
 	padding-block: 48px ;
 }
 
+.container{
+	margin: auto;
+}
+
 .title{
 	text-align: center;
 	color: #fff;

@@ -39,37 +39,43 @@ header nav .nav_container .links{
 	margin-inline: 20px;
 }
 
-header nav .nav_container .links .links_button{
-	width: 55px;
-	display: none;
-	height: 42px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid #fff;
-	border-radius: 6px;
-	background-color: transparent;
+header nav .nav_container .links .button_container .toggle-switch{
+  width: 55px;
+  display: none;
+  display: flex;
+  height: 42px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  background-color: transparent;
+  transition-duration: 0.5s;
 }
 
-header nav .nav_container .links .links_button span{
-	display: block;
-	width: 25px;
-	height: 2px;
-	background-color: #fff;
+header nav .nav_container .links .button_container .toggle-switch span{
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
 }
 
-header nav .nav_container .links .links_button span:nth-of-type(2){
-	margin-block: 8px;
+header nav .nav_container .links .button_container .toggle-switch span:nth-of-type(2){
+  margin-block: 8px;
 }
 
-header nav .nav_container .links ul {
+header nav .nav_container .links .button_container #toggle-checkbox{
+  display: none;
+}
+
+header nav .nav_container .links .button_container ul {
 	list-style: none;
 	display: flex;
 	align-items: center;
 	column-gap: 15px;
 }
 
-header nav .nav_container .links ul li a{
+header nav .nav_container .links .button_container ul li a{
 	text-transform: uppercase;
 	font-weight: bolder;
 	letter-spacing: 1.5px;
@@ -78,7 +84,7 @@ header nav .nav_container .links ul li a{
 
 }
 
-header nav .nav_container .links ul li a::after{
+header nav .nav_container .links .button_container ul li a::after{
 	content: "";
 	display: block;
 	width: 100%;
@@ -91,14 +97,14 @@ header nav .nav_container .links ul li a::after{
 	left: 0;
 }
 
-header nav .nav_container .links ul li.active a::after,
-header nav .nav_container .links ul li a:hover::after{
+header nav .nav_container .links .button_container ul li.active a::after,
+header nav .nav_container .links .button_container ul li a:hover::after{
 	opacity: 1;
 }
 
 header .container{
-	width: 81.5%;
-	height: 80%;
+	width: 70.8%;
+	height: 82%;
 	display: flex;
 	align-items: center;
 }
@@ -151,7 +157,6 @@ header .container .content button:active{
 
 #About .container {
 	width: 71%;
-	margin: auto;
 }
 
 #About .container .content{
@@ -202,7 +207,6 @@ header .container .content button:active{
 #Services .container{
 	width: 78%;
 	padding-inline: 10px;
-	margin: auto;
 }
 
 #Services .container .row{
@@ -311,8 +315,7 @@ header .container .content button:active{
 }
 
 #Clients .container{
-	width: 81%;
-	margin: auto;
+	width: 73%;
 }
 
 #Clients .container .content{
@@ -346,7 +349,7 @@ header .container .content button:active{
 
 #Clients .container .content .box .item p{
 	text-align: center;
-	padding-inline: 62px;
+	padding-inline: 85px;
 	color: var(--light-color);
 }
 
@@ -377,7 +380,6 @@ header .container .content button:active{
 
 #Trainers .container{
 	width: 83%;
-	margin: auto;
 }
 
 #Trainers .container .content{
@@ -465,7 +467,6 @@ header .container .content button:active{
 
 #Gallery .container{
 	width: 71%;
-	margin: auto;
 }
 
 #Gallery .container .title{
@@ -529,7 +530,6 @@ header .container .content button:active{
 
 #Contact .container{
 	width: 80%;
-	margin: auto;
 }
 
 #Contact .container .title {
@@ -628,7 +628,7 @@ header .container .content button:active{
 	color: #fff;
 	position: relative;
 	top: 0;
-	right: 43%;
+	right: 0;
 	transition-duration: 0.2s;
 }
 
@@ -645,7 +645,7 @@ header .container .content button:active{
 	background-color: var(--light-color);
 	border: none;
 	border-bottom: 1px solid #fff;
-	padding-inline: 75px;
+	padding-inline: 200px;
 }
 
 .contact_us .box {
@@ -665,7 +665,7 @@ header .container .content button:active{
 }
 
 .contact_us .box:nth-of-type(2) .item h3{
-	padding-left: 18px;
+	padding-left: 13px;
 }
 
 .contact_us .box:last-child{
@@ -681,7 +681,7 @@ header .container .content button:active{
 }
 
 .contact_us .box:last-child .item h3{
-	padding-left: 10px;
+	padding-left: 13px;
 }
 
 .contact_us .box:first-child .item a{
@@ -701,7 +701,7 @@ header .container .content button:active{
 }
 
 .contact_us .box:nth-of-type(2) .item .item-inside .small-box{
-	width: 30%;
+	width: 31%;
 }
 
 .contact_us .box:nth-of-type(2) .item .item-inside .small-box .small-item img{

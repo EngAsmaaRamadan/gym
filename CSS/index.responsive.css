@@ -11,12 +11,12 @@ responsive for header done
 			   		850 done
 			   		1050 done
 			   		1250 done
-			   	button trick(using parent that has 2 children(input that has the same class of old button,the 3 span)) and it responsive
+			   	button trick(using parent that has 2 children(input that has the same class of old button,the 3 span)) done and it responsive
 */
 
 @media (max-width: 1300px){
 	header nav{
-		padding: 10px 15px;
+		padding: 13px 15px;
 	}
 
 	header nav .nav_container .heading a h1,
@@ -32,15 +32,17 @@ responsive for header done
 		top: 3px;
 	}
 
-	header nav .nav_container .links .links_button{
+	header nav .nav_container .links .button_container .toggle-switch{
 		display: flex;
 	}
 
-	header nav .nav_container .links .links_button:focus + ul{
+	header nav .nav_container .links .button_container #toggle-checkbox:checked ~ ul{
 		display: flex;
-		padding: 25px 0;
-		height: 325px;
+	    padding: 25px 0;
+	    height: 350px;
 	}
+
+
 
 	header nav .nav_container .links ul{
 		width: 85%;
@@ -56,13 +58,13 @@ responsive for header done
 		transform: translate(-50%,100%);
 		padding: 0px;
 		border-radius: 10px;
-		gap: 25px 0;
+		gap: 27px 0;
 		overflow: hidden;
 		transition-duration: 0.5s;
 	}
 
 	header .container{
-		width: 95%;
+		width: 93%;
 	}
 
 	header .container .content h2{
@@ -77,7 +79,7 @@ responsive for header done
 
 	header .container .content button{
 		font-size: 14px;
-		padding: 10px 16px;
+		padding: 8px 15px;
 	}
 
 	#About{
@@ -305,26 +307,44 @@ responsive for header done
 	}
 }
 
-@media (min-width: 371px) and (max-width: 1300px){
+@media (min-width: 371px) and (max-width: 1300px){/*complete from here*/
+	header nav {
+        padding: 12px 15px;
+    }
+
+    header nav .nav_container  .heading{
+    	margin-bottom: 5px;
+    }
+
 	header nav .nav_container  .heading a h1{
 		font-size: 30px;
 		bottom: -1px;
 	}
 
-	header nav .nav_container  .links{
-		top: 6px;
+	header nav .nav_container .links{
+		padding-top: 5px;
 	}
 
-	header .container{
-		width: 80%;
+	header nav .nav_container .links ul{
+		width: 88%;
+		gap:28px 0;
 	}
+
+	header nav .nav_container .links .button_container #toggle-checkbox:checked ~ ul{
+		height: 357px;
+	}
+
+	header .container {
+        width: 95%;
+        height: 81%;
+    }
 
 	header .container .content h2{
-		font-size: 45px;
+		font-size: 40px;
 	}
 
 	header .container .content h4{
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 	header .container .content button{
@@ -390,20 +410,25 @@ responsive for header done
         bottom: -5px;
     }
 
-	header nav .nav_container  .links{
-		top: 9px;
-		right: 5px;
+	header nav .nav_container .links{
+		padding-top: 8px;
+		padding-right: 5px;
 	}
 
-	header .container{
-		width: 82%;
+	header nav .nav_container .links ul{
+		width: 92.5%;
 	}
 
-	header .container .content .item h2{
+	header .container {
+        width: 79.5%;
+        height: 79%;
+    }
+
+	header .container .content h2{
 		font-size: 45px;
 	}
 
-	header .container .content .item h4{
+	header .container .content h4{
 		font-size: 40px;
 	}
 
@@ -493,6 +518,10 @@ responsive for header done
 }
 
 @media (min-width: 769px) and (max-width: 1300px){
+	header .container {
+        width: 82%;
+    }
+
 	#About{
 		padding-block: 1.5rem;
 	}
@@ -677,18 +706,17 @@ responsive for header done
 		margin-inline: 0px;
 	}
 
-	header nav .nav_container  .links .links_button{
+	header nav .nav_container  .links .button_container .toggle-switch{
 		display: none;
 	}
-	
-	header nav .nav_container  .links ul {
-		list-style: none;
+
+	header nav .nav_container  .links .button_container ul {
 		background-color: transparent;
 		display: flex;
 		align-items: center;
-		column-gap: 15px;
+		gap: 0px 15px;
 		width: 100%;
-		height: 100%;
+		height: auto;
 		flex-direction: row;
 		position: initial;
 		transform: none;
