@@ -110,8 +110,12 @@ responsive for header done
 		padding-block: 20px 40px;
 	}
 
+	#Services{
+		padding-block: 25px;
+	}
+
 	.title h2{
-		font-size: 28px;
+		font-size: 27px;
 	}
 
 	#Services .container {
@@ -132,11 +136,11 @@ responsive for header done
 	}
 
 	#Services .container .row .part .item h3{
-		font-size: 22px;
+		font-size: 22.5px;
 	}
 
 	#Services .container .row .part .item i{
-		margin-block: 10px 20px;
+		margin-block: 10px 25px;
 	}
 
 	#Clients .container {
@@ -369,7 +373,7 @@ responsive for header done
     }
 
 	.title h2{
-		font-size: 30px;
+		font-size: 29px;
 	}
 
 	#Services .container .row .part .item h3{
@@ -407,7 +411,7 @@ responsive for header done
 	header nav .nav_container  .heading a h1 {
         font-size: 40px;
         left: 5px;
-        bottom: -5px;
+        bottom: -2px;
     }
 
 	header nav .nav_container .links{
@@ -452,8 +456,16 @@ responsive for header done
     	width: 45.6%;
     }
 
+    #Services .title{
+    	padding-bottom: 42px;
+    }
+
 	.title h2{
-		font-size: 33px;
+		font-size: 32px;
+	}
+
+	#Services .container .row{
+		padding-bottom: 44px;
 	}
 
 	#Services .container .row .part .item h3{

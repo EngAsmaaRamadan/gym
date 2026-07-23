@@ -191,7 +191,7 @@ header .container .content button:active{
 #About .container .content .part:first-child .item p{
 	margin-bottom: 1rem;
 	color: var(--light-color);
-	padding-right: 6px;
+	padding-right: 0px;
 }
 
 #About .container .content .part:last-child .item img{
@@ -242,11 +242,12 @@ header .container .content button:active{
 #Services .container .row2 .part2 .item button{
 	background-color: #000;
 	color: #fff;
-	font-size: 15px;
-	padding: 10px 12px;
+	font-size: 16px;
+	padding: 8px 12px;
 	cursor: pointer;
 	border: 1px solid transparent;
 	transition-duration: 0.20s;
+	font-family: 'PT Sans';
 }
 
 #Services .container .row .part .item button:hover{
@@ -262,7 +263,7 @@ header .container .content button:active{
 #Services .container .row1 .part1 .item p,
 #Services .container .row3 .part1 .item h3,
 #Services .container .row3 .part1 .item p{
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 
 #Services .container .row2 .part2 .item h3,
@@ -303,8 +304,10 @@ header .container .content button:active{
     align-items: center;
     color: var(--main-color);
     font-size: 35px;
+    width: 100px;
+    height: 100px;
     border: 1px solid #000;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 30px 50px;
     /*margin-left: 100px;*/
 }
