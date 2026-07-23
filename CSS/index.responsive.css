@@ -311,7 +311,7 @@ responsive for header done
 	}
 }
 
-@media (min-width: 371px) and (max-width: 1300px){/*complete from here*/
+@media (min-width: 371px) and (max-width: 1300px){
 	header nav {
         padding: 12px 15px;
     }
@@ -730,9 +730,10 @@ responsive for header done
 		width: 100%;
 		height: auto;
 		flex-direction: row;
-		position: initial;
-		transform: none;
+		position: relative;/*???better than initial*/
+		transform: translate(0);/*better than transform none because if i have other things like rotate , scale and so on*/
 		border-radius: 0px;
+		/*padding:;/*better than say padding top,right and so on*/
 		padding-bottom: 5px;
 		padding-right: 20px;
 	}
