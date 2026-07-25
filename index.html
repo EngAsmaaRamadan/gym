@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="CSS/index.responsive.css">
 </head>
 <body>
-	<!-- IMPORTANT SEARCH what pseudo class that when make click on button make something appear and when i click again on this button is hidden,, and padding block in ul in small screens like 350px?? done solution is make the nav -- the direct parent that has position ,on the ul -->
+	<!-- IMPORTANT SEARCH what pseudo class that when make click on button make something appear and when i click again on this button is hidden(done), and padding block in ul in small screens like 350px?? done solution is make the nav -- the direct parent that has position ,on the ul -->
 	
 	<!-- revise all responsive after finishing the sections -->
 
@@ -22,15 +22,20 @@
 		<div class="nav_container">
 			<div class="heading"><a href="#"><h1>Gym-Plus</h1></a></div>
 			<div class="links">
+
+				<!--the way to make button that make specific effect when press on it for first time(odd time) and reflect the effect if pressed for the second time(even time)-->
+
 			<div class="button_container">
 		<input id="toggle-checkbox" type="checkbox">
+		<!-- make input of type checkbox to can checked it later and display none for it  then make label associated with this input so when click on this label ,like input checked even the input appearance is none , so finally we can do any effect we want when checked on input(click on label) and reflect this effect when click or press on the label to the second time ok!-->
+
+		<!-- and put the spans in the label (because it has opening and closing) -->
 		<label class="toggle-switch" for="toggle-checkbox">
 			<span></span>
 			<span></span>
-			<span></span></label>
-		
-	
-	<ul>
+			<span></span>
+		</label>
+		<ul>
 					<li class="active"><a href="#Home">Home</a></li>
 					<li><a href="#About">About</a></li>
 					<li><a href="#Services">Services</a></li>
@@ -38,7 +43,7 @@
 					<li><a href="#Trainers">Trainers</a></li>
 					<li><a href="#Gallery">Gallery</a></li>
 					<li><a href="#Contact">Contact</a></li>
-				</ul>
+		</ul>
 </div>
 			</div>
 		

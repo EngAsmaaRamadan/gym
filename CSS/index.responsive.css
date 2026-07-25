@@ -36,13 +36,22 @@ responsive for header done
 		display: flex;
 	}
 
+	/*the way to make button that make specific effect when press on it for first time(odd time) and reflect the effect if pressed for the second time(even time)*/
+
 	header nav .nav_container .links .button_container #toggle-checkbox:checked ~ ul{
 		display: flex;
 	    padding: 25px 0;
 	    height: 350px;
+	    transition-duration: 0.5s;
 	}
 
+	/*this solve problem od move the ul when we travel from 850 (or less) to (1050 or more) but make another problem that -->
+			when we pressed again to the second time on the button(label) it will return with transition-duration 0s not 0.5s 
 
+			so we will comment the next code to make transition-duration 0.5 when press on button whatever the first time or second */
+	/*header nav .nav_container .links .button_container #toggle-checkbox:not(:checked) ~ ul{
+		transition-duration: 0s;
+	}*/
 
 	header nav .nav_container .links ul{
 		width: 85%;
