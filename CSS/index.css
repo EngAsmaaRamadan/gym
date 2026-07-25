@@ -34,8 +34,6 @@ header nav .nav_container .heading a h1{
 }
 
 header nav .nav_container .links{
-	/*position: relative;
-	bottom: 1px;*/
 	margin-inline: 20px;
 }
 
@@ -146,7 +144,7 @@ header .container .content button:hover{
 }
 
 header .container .content button:active{
-	border-color: #fff;/*???why once i make focus it stay #fff even i hover or get out of button
+	border-color: #fff;/*???why once i make focus it stay #fff even i hover or get out of button???
 	it solved by active pseudo class not :focus*/
 }
 
@@ -176,10 +174,6 @@ header .container .content button:active{
 	justify-content: center;
 	align-items: center;
 }
-
-/*#About .container .content .part:first-child{
-	padding-bottom: 10px;
-}*/
 
 #About .container .content .part .item h2{
 	color: var(--main-color);
@@ -286,15 +280,6 @@ header .container .content button:active{
 #Services .container .row3 .part2{
 	width: 33.33%;
 }
-
-/*#Services .container .row1 .part2,
-#Services .container .row3 .part2{
-	padding-right: 10px;
-}*/
-
-/*#Services .container .row2 .part1{
-	padding-left: 10px;
-}*/
 
 #Services .container .row1 .part2 i,
 #Services .container .row2 .part1 i,

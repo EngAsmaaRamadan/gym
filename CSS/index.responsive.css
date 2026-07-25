@@ -4,7 +4,7 @@ responsive for header done
 			   clients done
 			   triainers done
 			   gallery done
-			   contact (BIG PROBLEM was because the fixed hight of container in gallery)
+			   contact (BIG PROBLEM in the map ,was because the fixed hight of container in gallery)
 			   		350	done
 			   		450	done
 			   		650	done
@@ -12,6 +12,8 @@ responsive for header done
 			   		1050 done
 			   		1250 done
 			   	button trick(using parent that has 2 children(input that has the same class of old button,the 3 span)) done and it responsive
+
+			   	don't forget to put the original background-image in header before project handover
 */
 
 @media (max-width: 1300px){
@@ -133,7 +135,7 @@ responsive for header done
 
 	#Services .container .row1,
 	#Services .container .row3{
-		flex-direction: column-reverse;/*to make icon start not end in row 1 and 3 and the opposite in row 2*/
+		flex-direction: column-reverse;/*to make icon start column not end row in row 1 and 3 and the opposite in row 2*/
 	}
 
 	#Services .container .row .part{
@@ -760,9 +762,9 @@ responsive for header done
 		height: auto;
 		flex-direction: row;
 		position: initial;
-		transform: translate(0);/*better than transform none because if i have other things like rotate , scale and so on*/
+		transform: translate(0);/*better than transform none because if i have other functions like rotate , scale and so on*/
 		border-radius: 0px;
-		/*padding:;/*better than say padding top,right and so on*/
+		/*padding:;/*better than say padding top,right and so on, do it in the next time*/
 		padding-bottom: 5px;
 		padding-right: 20px;
 	}
@@ -855,7 +857,7 @@ responsive for header done
 
 	#Trainers .container .content .box .item{
 		width: initial;
-		margin: 0;/*to remove the margin auto*/
+		margin: 0;/*to remove the margin auto then specific the margin that we want*/
 		margin-inline: 11px;
 	}
 
