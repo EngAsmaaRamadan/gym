@@ -200,18 +200,18 @@ header .container .content button:active{
 
 #Services{
 	background-color: var(--main-color);
-	padding-block: 40px;
+	padding-block: 40px 48px;
 }
 
 #Services .container{
-	width: 78%;
+	width: 67.5%;
 	padding-inline: 10px;
 }
 
 #Services .container .row{
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 40px;
+	padding-bottom: 48px;
 }
 
 #Services .container .row1 .part2 .item,
@@ -229,24 +229,21 @@ header .container .content button:active{
 }
 
 #Services .container .row2 .part2{
-	width: 65%;
+	width: 66%;
+	padding-left: 8px;
 }
 
 #Services .container .row .part1 .item h3,
 #Services .container .row2 .part2 .item h3{
 	color: #fff;
-	font-size: 28px;
-}
-
-#Services .container .row .part .item p{
-	line-height: 1.6;
+	font-size: 27.5px;
 }
 
 #Services .container .row .part1 .item button,
 #Services .container .row2 .part2 .item button{
 	background-color: #000;
 	color: #fff;
-	font-size: 15px;
+	font-size: 16px;
 	padding: 8px 12px;
 	cursor: pointer;
 	border: 1px solid transparent;
@@ -312,6 +309,15 @@ header .container .content button:active{
     height: 100px;
     border: 1px solid #000;
     border-radius: 100%;
+}
+
+#Services .container .row1 .part2 i,
+#Services .container .row3 .part2 i{
+	margin-left: 55px;
+}
+
+#Services .container .row2 .part1 i{
+	margin-right: 15px;
 }
 
 #Clients .title{

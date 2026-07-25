@@ -780,13 +780,24 @@ responsive for header done
 		font-size: 38px;
 	}
 
+	#Services .container .row{
+		padding-bottom: 50px;
+	}
+
 	#Services .container .row .part .item h3{
 		font-size: 26.5px;
 	}
 
 	#Services .container .row .part .item p{
-		font-size: 15px;
-		padding-right: 28px;
+		padding-right: 15px;
+	}
+
+	#Services .container .row2 .part2 .item p{
+		padding-right: 0;
+	}
+
+	#Services .container .row .part1 .item button, #Services .container .row2 .part2 .item button{
+		font-size: 16px;
 	}
 
 	#Services .container .row .part .item i {
@@ -900,17 +911,25 @@ responsive for header done
 	}
 
 	#Services .container {
-        width: 86%;
+        width: 89%;
+    }
+
+    .title h2{
+    	font-size: 40px;
+    }
+
+    #Services .container .row{
+    	padding-bottom: 48px;
     }
 
 	#Services .container .row .part .item h3{
-		font-size: 26px;
+		font-size: 27.5px;
+		margin-bottom: 14px;
 	}
 
 	#Services .container .row .part .item p{
-		line-height: 1.5;
 		padding-right: 20px;
-		font-size: 15px;
+		font-size: 16px;
 	}
 
 	#Services .container .row1 .part1, #Services .container .row2 .part2,#Services .container .row3 .part1{
@@ -919,6 +938,15 @@ responsive for header done
 
 	#Services .container .row1 .part2, #Services .container .row2 .part1, #Services .container .row3 .part2{
 		width: 31%;
+	}
+
+	#Services .container .row2 .part1 .item i{
+		margin-left: 20px;
+	}
+
+	#Services .container .row2 .part2{
+		margin-left: 21px;
+		padding-left: 10px;
 	}
 
 	#Clients .container{
