@@ -111,11 +111,11 @@ responsive for header done
 	}
 
 	#Services{
-		padding-block: 20px;
+		padding-block: 25px;
 	}
 
 	.title h2{
-		font-size: 27px;
+		font-size: 27.5px;
 	}
 
 	#Services .container {
@@ -141,6 +141,11 @@ responsive for header done
 
 	#Services .container .row .part .item i{
 		margin-block: 10px 25px;
+		margin-inline: 0;		
+	}
+
+	#Clients{
+		padding-block: 20px 28px;
 	}
 
 	#Clients .container {
@@ -169,14 +174,17 @@ responsive for header done
 		font-size: 21px;
 	}
 
+	#Trainers{
+		padding-block: 24px;
+	}
+
 	#Trainers .container .content .box {
 	    width: 100%;
-	    margin-bottom: 40px;
-
+	    margin-bottom: 48px;
 	}
 
 	#Trainers .container .content .box .item{
-		width: 260px;
+		width: 270px;
 		margin: auto;
 	}
 
