@@ -103,13 +103,13 @@ header nav .nav_container .links .button_container ul li a:hover::after{
 
 header .container{
 	width: 70.8%;
-	height: 82%;
 	display: flex;
 	align-items: center;
 }
 
 header .container .content{
 	color: #fff;
+	height: 145%;
 }
 
 header .container .content h2{

@@ -340,7 +340,6 @@ responsive for header done
 
 	header .container {
         width: 95%;
-        height: 81%;
     }
 
 	header .container .content h2{
@@ -426,7 +425,7 @@ responsive for header done
 
 	header .container {
         width: 79.5%;
-        height: 79%;
+        /*height: 79%;*/
     }
 
 	header .container .content h2{
