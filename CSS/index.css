@@ -238,11 +238,15 @@ header .container .content button:active{
 	font-size: 28px;
 }
 
+#Services .container .row .part .item p{
+	line-height: 1.6;
+}
+
 #Services .container .row .part1 .item button,
 #Services .container .row2 .part2 .item button{
 	background-color: #000;
 	color: #fff;
-	font-size: 16px;
+	font-size: 15px;
 	padding: 8px 12px;
 	cursor: pointer;
 	border: 1px solid transparent;
@@ -308,8 +312,6 @@ header .container .content button:active{
     height: 100px;
     border: 1px solid #000;
     border-radius: 100%;
-    padding: 30px 50px;
-    /*margin-left: 100px;*/
 }
 
 #Clients .title{
