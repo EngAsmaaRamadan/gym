@@ -71,7 +71,7 @@ responsive for header done
 		border-radius: 10px;
 		gap: 27px 0;
 		overflow: hidden;
-		transition-duration: 0.5s;
+		transition-duration: 0.2s;
 	}
 
 	header .container{
@@ -449,11 +449,15 @@ responsive for header done
 	}
 
 	header nav .nav_container .links ul{
-		width: 92.5%;
+		width: 90%;
 	}
 
 	header .container {
         width: 79.5%;
+    }
+
+    header .container .content{
+    	height: 138%;
     }
 
 	header .container .content h2{
@@ -513,8 +517,13 @@ responsive for header done
     }
 
     #Gallery .container{
-		width: 47.5%;/*we are here in 650 screen in gallery*/
+		width: 47.5%;
 	}
+
+	#Contact .container form {
+        width: 93%;
+        margin-left: 67px;
+    }
 
 	#Contact .container form input,
     #Contact .container form textarea{
@@ -526,7 +535,7 @@ responsive for header done
     }
 
     #Contact .container .title h2{
-    	font-size: 28px;
+    	font-size: 27px;
     }
 
     .contact_us .box:nth-of-type(2) .item .item-inside .small-box{
@@ -544,7 +553,7 @@ responsive for header done
     .contact_us .box:last-child .item .item-inside{
     	margin: 0;
     	margin-bottom: 15px;
-    	width: 77%;
+    	width: 77.5%;
     }
 
     .contact_us .box:last-child .item .item-inside p{
@@ -554,6 +563,10 @@ responsive for header done
 }
 
 @media (min-width: 769px) and (max-width: 1300px){
+	header nav .nav_container .links ul {
+        width: 92%;
+    }
+
 	header .container {
         width: 82%;
     }
@@ -637,12 +650,17 @@ responsive for header done
 		margin-right: 8px;
 	}
 
+	section{
+		padding-block:24px;
+	}
+
 	#Clients .container{
 		width: 80%;
 	}
 
 	#Clients .container .content .box {
 		width: 50%;
+		margin-bottom: 0px;
 	}
 
 	#Clients .container .content .box:first-child .item{
@@ -657,12 +675,16 @@ responsive for header done
 		font-size: 23px;
 	}
 
+	#Trainers .container{
+		width: 85%;
+	}
+
 	#Trainers .container .content .box{
 		width: 50%;
 	}
 
 	#Gallery .container{
-		width: 80%;
+		width: 82%;
 	}
 
 	#Gallery .container .content{
@@ -691,7 +713,7 @@ responsive for header done
 	}
 
 	#Contact .container .title h2{
-    	font-size: 30px;
+    	font-size: 29px;
     }
 
     #Contact .container .content .box{
@@ -700,7 +722,8 @@ responsive for header done
 
     #Contact .container form{
     	width: 96%;
-    	margin-bottom: 0;
+    	margin: 0;
+    	margin: auto;
     }
 
     #Contact .container form input{
@@ -727,6 +750,10 @@ responsive for header done
     	padding-inline: 75px;
     }
 
+    .contact_us .box:first-child .item a:last-child{
+    	margin-bottom: 20px;
+    }
+
     .contact_us .box:nth-of-type(2) .item{
     	padding-right: 130px;
     }
@@ -736,7 +763,7 @@ responsive for header done
     }
 
     .contact_us .box:last-child .item .item-inside{
-    	width: 58%;
+    	width: 57%;
     	padding-inline: 15px;
     }
 
@@ -798,7 +825,7 @@ responsive for header done
     }
 
     .title h2{
-		font-size: 38px;
+		font-size: 37.5px;
 	}
 
 	#Services .container .row{
@@ -830,6 +857,10 @@ responsive for header done
         padding-block: 48px;
     }
 
+    #Clients{
+    	padding-block: 48px 45px;
+    }
+
     #Clients .container {
         width: 86%;
     }
@@ -846,8 +877,12 @@ responsive for header done
         padding-inline: 45px;
     }
 
+    #Trainers{
+    	padding-block: 48px;
+    }
+
     #Trainers .container{
-    	width: 92%;
+    	width: 91%;
     }
 
     #Trainers .container .content .box {
@@ -856,9 +891,9 @@ responsive for header done
 	}
 
 	#Trainers .container .content .box .item{
-		width: initial;
+		width: 215px;
 		margin: 0;/*to remove the margin auto then specific the margin that we want*/
-		margin-inline: 11px;
+		margin-inline: 0;
 	}
 
 	#Gallery .container {
@@ -875,28 +910,29 @@ responsive for header done
     }
 
     #Contact .container .title h2 {
-        font-size: 32px;
+        font-size: 31px;
     }
-
-    #Contact .container form {
-        width: 97%;
-	}
 
 	#Contact .container form input {
         width: 31.5%;
     }
 
     .contact_us {
-        padding-inline: 7px;
-        padding-top: 50px;
+        padding-inline: 0px;
+        padding-top: 45px;
     }
 
     .contact_us .box {
         width: 30%;
     }
-
+    
     .contact_us .box:first-child{
-    	margin-bottom: 0;
+    	margin-bottom: 10px;
+    }
+
+    .contact_us .box:first-child .item a:last-child{
+    	margin-bottom: 10px;
+
     }
 
     .contact_us .box:nth-of-type(2){
@@ -912,6 +948,7 @@ responsive for header done
     }
 
     .contact_us .box:last-child{
+    	width: 28%;
     	margin-left: 17px;
     }
 
@@ -971,7 +1008,11 @@ responsive for header done
 	}
 
 	#Clients .container{
-		width: 85%;
+		width: 86%;
+	}
+
+	#Clients .container .content .box .item h3{
+		font-size: 24px;
 	}
 
 	#Clients .container .content .box:first-child .item{
@@ -987,7 +1028,16 @@ responsive for header done
     }
 
     #Trainers .container .content .box .item{
+		width: initial;
 		margin-inline: 12px;
+	}
+
+	#Contact .container .title h2{
+		font-size: 32px;
+	}
+
+	#Contact .container form{
+		width: 97%;
 	}
 
 	.contact_us .box:nth-of-type(2){
@@ -997,7 +1047,7 @@ responsive for header done
 	.contact_us .box:nth-of-type(2) .item .item-inside{
 		width: 96%;
 		margin: auto;
-		margin-bottom: 15px;
+		margin-bottom: 0px;
 	}
 
 	.contact_us .box:nth-of-type(2) .item .item-inside .small-box {
