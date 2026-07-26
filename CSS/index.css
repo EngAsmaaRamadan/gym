@@ -194,7 +194,7 @@ header .container .content button:active{
 
 #Services{
 	background-color: var(--main-color);
-	padding-block: 40px 48px;
+	padding-block: 48px;
 }
 
 #Services .container{
@@ -715,7 +715,7 @@ header .container .content button:active{
 }
 
 .contact_us .box:nth-of-type(2) .item .item-inside .small-box .small-item img{
-	width: 84%;
+	width: 83%;
 	display: block;
 }
 

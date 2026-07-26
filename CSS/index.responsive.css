@@ -631,6 +631,10 @@ responsive for header done
 		max-width: 100%;
 	}
 
+	#Services{
+		padding-block: 24px;
+	}
+
 	#Services .container {
     	width: 81.5%;
     }
@@ -686,6 +690,10 @@ responsive for header done
 		padding-block:24px;
 	}
 
+	#Clients{
+		padding-block: 24px 20px;
+	}
+
 	#Clients .container{
 		width: 80%;
 	}
@@ -713,6 +721,10 @@ responsive for header done
 
 	#Trainers .container .content .box{
 		width: 50%;
+	}
+
+	#Trainers .container .content .box .item h4{
+		font-size: 23px;
 	}
 
 	#Gallery .container{
@@ -914,7 +926,7 @@ responsive for header done
     }
 
     #Trainers .container{
-    	width: 91%;
+    	width: 92%;
     }
 
     #Trainers .container .content .box {
@@ -923,7 +935,7 @@ responsive for header done
 	}
 
 	#Trainers .container .content .box .item{
-		width: 215px;
+		width: 216px;
 		margin: 0;/*to remove the margin auto then specific the margin that we want*/
 		margin-inline: 0;
 	}
@@ -959,7 +971,7 @@ responsive for header done
     }
     
     .contact_us .box:first-child{
-    	margin-bottom: 10px;
+    	margin-bottom: 0px;
     }
 
     .contact_us .box:first-child .item a:last-child{
@@ -969,6 +981,7 @@ responsive for header done
 
     .contact_us .box:nth-of-type(2){
     	padding-left: 7px;
+    	margin-bottom: 0;
     }
 
     .contact_us .box:nth-of-type(2) .item{
@@ -977,6 +990,10 @@ responsive for header done
 
     .contact_us .box:nth-of-type(2) .item .item-inside .small-box {
         width: 27%;
+    }
+
+    .contact_us .box:nth-of-type(2) .item .item-inside .small-box .small-item img{
+    	width: 103%;
     }
 
     .contact_us .box:last-child{
