@@ -122,7 +122,11 @@ responsive for header done
 	}
 
 	#Services{
-		padding-block: 25px;
+		padding-block: 25px 38px;
+	}
+
+	#Services .title{
+		padding-bottom: 35px;
 	}
 
 	.title h2{
@@ -131,6 +135,10 @@ responsive for header done
 
 	#Services .container {
     	width: 99%;
+    }
+
+    #Services .container .row{
+    	padding-bottom: 35px;
     }
 
 	#Services .container .row1,
@@ -142,8 +150,8 @@ responsive for header done
 		width: 100%;
 	}
 
-	#Services .container .row .part{
-		width: 100%;
+	#Services .container .row2 .part2{
+		padding-left: 0;
 	}
 
 	#Services .container .row .part .item h3{
@@ -178,11 +186,15 @@ responsive for header done
 	}
 
 	#Clients .container .content .box .item h3{
-		font-size: 21px;
+		font-size: 21.5px;
 	}
 
 	#Trainers{
 		padding-block: 24px;
+	}
+
+	#Trainers .container{
+		width: 77%;
 	}
 
 	#Trainers .container .content .box {
@@ -195,8 +207,12 @@ responsive for header done
 		margin: auto;
 	}
 
+	#Trainers .container .content .box .item h4{
+		font-size: 21.5px;
+	}
+
 	#Gallery .container{
-		width: 62%;
+		width: 80%;
 	}
 
 	#Gallery .container .content{
@@ -216,6 +232,10 @@ responsive for header done
 	#Contact {
     	padding-top: 70px;
     	padding-bottom: 48px;
+	}
+
+	#Contact .container{
+		width: 80%;
 	}
 
 	#Contact .container .content {
@@ -379,6 +399,10 @@ responsive for header done
 		font-size: 29px;
 	}
 
+	#About .container .content .part:first-child .item p{
+		padding-right: 1px;
+	}
+
 	section{
 		padding-block: 24px 28px;
 	}
@@ -410,6 +434,14 @@ responsive for header done
 
 	#Clients .container .content .box .item h3{
 		font-size: 22px;
+	}
+
+	#Trainers .container .content .box .item h4{
+		font-size: 22px;
+	}
+
+	#Gallery .container{
+		width: 63%;
 	}
 
 	#Contact{
@@ -485,7 +517,7 @@ responsive for header done
 	}
 
 	#Services{
-		padding-block: 22px 25px;
+		padding-block: 20px 30px;
 	}
 
 	#Services .container {
@@ -517,7 +549,7 @@ responsive for header done
     }
 
     #Gallery .container{
-		width: 47.5%;
+		width: 48%;
 	}
 
 	#Contact .container form {

@@ -185,7 +185,7 @@ header .container .content button:active{
 #About .container .content .part:first-child .item p{
 	margin-bottom: 1rem;
 	color: var(--light-color);
-	padding-right: 0px;
+	padding-right: 10px;
 }
 
 #About .container .content .part:last-child .item img{
