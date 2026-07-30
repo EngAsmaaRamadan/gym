@@ -13,7 +13,9 @@ header{
 
 header nav{
 	width: 100%;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
 	padding: 10px 30px;
 	padding-top: 20px;
 }
@@ -100,14 +102,12 @@ header nav .nav_container .links .button_container ul li a:hover::after{
 }
 
 header .container{
-	width: 70.8%;
 	display: flex;
 	align-items: center;
 }
 
 header .container .content{
 	color: #fff;
-	height: 145%;
 }
 
 header .container .content h2{
@@ -152,10 +152,6 @@ header .container .content button:active{
 	padding-block: 3rem;
 }
 
-#About .container {
-	width: 71%;
-}
-
 #About .container .content{
 	display: flex;
 	flex-wrap: wrap;
@@ -197,8 +193,7 @@ header .container .content button:active{
 	padding-block: 48px;
 }
 
-#Services .container{
-	width: 67.5%;
+#Services .container{/*edit*/
 	padding-inline: 10px;
 }
 
@@ -309,11 +304,9 @@ header .container .content button:active{
 	color: #000;
 }
 
-#Clients .container{
-	width: 71%;
-}
-
-#Clients .container .content{
+#Clients .container .content,
+#Trainers .container .content,
+#Contact .container .content{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -378,15 +371,6 @@ header .container .content button:active{
 
 #Trainers{
 	background-color: var(--main-color);
-}
-
-#Trainers .container{
-	width: 72%;
-}
-
-#Trainers .container .content{
-	display: flex;
-	flex-wrap: wrap;
 }
 
 #Trainers .container .content .box {
@@ -468,10 +452,6 @@ header .container .content button:active{
 	color: var(--main-color);
 }
 
-#Gallery .container{
-	width: 71%;
-}
-
 #Gallery .container .title{
 	color: #000;
 }
@@ -532,10 +512,6 @@ header .container .content button:active{
 	margin-bottom: 48px;
 }
 
-#Contact .container{
-	width: 72%;
-}
-
 #Contact .container .title {
 	color: #000;
 }
@@ -545,8 +521,6 @@ header .container .content button:active{
 }
 
 #Contact .container .content{
-	display: flex;
-	flex-wrap: wrap;
 	margin-bottom: 40px;
 }
 
